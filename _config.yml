@@ -42,11 +42,11 @@ permalink: /:year/:month/:day/:title/
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: 
+  email: deramundo.marco@gmail.com
   facebook:
   github: dr-marco/
   instagram: marco_dera
-  linkedin: marco-de-ramundo-449475257
+  linkedin: marco-de-ramundo
   rss: # just type anything here for a working RSS icon
   twitter: DeraMarco
 
