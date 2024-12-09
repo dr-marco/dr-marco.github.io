@@ -49,6 +49,7 @@ footer-links:
   linkedin: marco-de-ramundo
   rss: # just type anything here for a working RSS icon
   twitter: DeraMarco
+  mastodon: @dera
 
 plugins:
   - jekyll-seo-tag
