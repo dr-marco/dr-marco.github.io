@@ -15,10 +15,10 @@ lightavatar: /assets/images/k2so_01_small.png
 darkavatar: /assets/images/k2so_02_small.png
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: Minimalistic Jekyll theme that automatically supports dark and light modes for blogs
+tagline: dr-marco's blog
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: Minimalistic Jekyll theme that automatically supports dark and light modes for blogs
+description: dr-marco's blog
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: deramundo.com
@@ -55,3 +55,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-polyglot
+
+#I18n
+languages: ["en", "it"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true

@@ -1,0 +1,468 @@
+current:
+  - author: Hamming, Richard
+    original: "The Art of Doing Science and Engineering, Learning to Learn"
+    en: 
+    it: "The Art of Doing Science and Engineering, Learning to Learn"
+  - author: "Hofstader, Douglas R."
+    original: "Gödel, Escher, Bach: an Eternal Golden Braid"
+    en: 
+    it: "Gödel, Escher, Bach: un'Eterna Ghirlanda Brillante"
+  - author: Kissinger, Henry
+    original: "World Order"
+    en:
+    it: "Ordine Mondiale"
+  - author: "Rumiz, Paolo"
+    original: "È Oriente"
+    en: "It is East"
+    it: "È Oriente"
+  - author: Smith, Denis Mack
+    original: "Modern Italy. A Political History"
+    en:
+    it: "Storia d'Italia. Dal 1861 al 1997"
+  - author: "Vonnegut, Kurt"
+    original: "Breakfast of Champions"
+    en:
+    it: "La Colazione dei Campioni, ovvero Addio Triste Lunedì"
+
+novels:
+  - author: "Abbott, Edwin A."
+    books:
+      - original: "Flatland"
+        en: 
+        it: "Flatlandia"
+  - author: "Alverà, Diego"
+    books:
+      - original: "Il romanzo del Fuji - Lauda, Hunt, F1 1976"
+        en: "Fuji's Tale - Landa, Hunt, F1 1976"
+        it: "Il romanzo del Fuji - Lauda, Hunt, F1 1976"
+  - author: "Asimov, Isaac"
+    books:
+      - original: "I, Robot"
+        en: 
+        it: "Io, Robot"
+  - author: "Baricco, Alessandro"
+    books:
+      - original: "Omero, Iliade"
+        en: "An Iliad"
+        it: "Omero, Iliade"
+  - author: "Brecht, Bertolt"
+    books:
+      - original: "Leben des Galilei"
+        en: "Life of Galileo"
+        it: "Vita di Galileo"
+  - author: "Buck, Pearl S."
+    books:
+      - original: "Dragon Seed"
+        en: 
+        it: "Stirpe di Drago"
+  - author: "Bulgakov, Mikhail"
+    books:
+      - original: "Sobach'ye serdtse"
+        en: "Heart of a Dog"
+        it: "Cuore di Cane"
+  - author: "Buzzati, Dino"
+    books:
+      - original: "Il Deserto dei Tartari"
+        en: "The Tartar Steppe"
+        it: "Il Deserto dei Tartari"
+  - author: "Calvino, Italo"
+    books:
+      - original: "Il Cavaliere Inesistente"
+        en: "The Nonexistent Knight"
+        it: "Il Cavaliere Inesistente"
+  - author: "Cammilleri Andrea"
+    books:
+      - original: "Racconti di Montalbano"
+        en: "Montalbano's First Case and Other Stories"
+        it: "Racconti di Montalbano"
+  - author: "Christie, Agata"
+    books:
+      - original: "Murder on the Orient Express"
+        en: 
+        it: "Assassinio sull'Orient Express"
+  - author: "De Carlo, Andrea"
+    books:
+      - original: "Yucatan"
+        en: 
+        it: "Yucatan"
+  - author: "Dick, Philip K."
+    books:
+      - original: "The Man in the High Castle"
+        en: 
+        it: "La Svastica sul Sole"
+      - original: "Ubik"
+        en:
+        it: "Ubik"
+  - author: "Dostoevsky, Fyodor"
+    books:
+      - original: "Belye nochi"
+        en: "White Nights"
+        it: "Le Notti Bianche"
+  - author: "Faletti, Giorgio"
+    books:
+      - original: "La Piuma"
+        en: "The Feather"
+        it: "La Piuma"
+  - author: "Fenoglio, Giuseppe"
+    books:
+      - original: "La Malora"
+        en: "Ruin"
+        it: "La Malora"
+  - author: "Fitzgerald, Francis Scott"
+    books:
+      - original: "The Great Gatsby"
+        en: 
+        it: "Il Grande Gatsby"
+      - original: "Tender is the Night"
+        en:
+        it: "Tenera è la Notte"
+  - author: "Golding, William"
+    books:
+      - original: "Lord of the Flies"
+        en: 
+        it: "Il Signore delle Mosche"
+  - author: "Guevara, Ernesto Che"
+    books:
+      - original: "Notas de viaje"
+        en: "The Motorcycle Diaries"
+        it: "Latinoamericana, i diari della Motocicletta"
+  - author: "Hemingway, Ernest"
+    books:
+      - original: "The Old Man and the Sea"
+        en: 
+        it: "Il Vecchio e il Mare"
+  - author: "Kafka, Franz"
+    books:
+      - original: "Die Verwandlung"
+        en: "The Methamorphosis"
+        it: "La Metamorfosi"
+  - author: "Kerouac, Jack"
+    books:
+      - original: "On the Road"
+        en: 
+        it: "Sulla Strada"
+  - author: "King, Stephen"
+    books:
+      - original: "The Shining"
+        en: 
+        it: "Shining"
+  - author: "Kundera, Milan"
+    books:
+      - original: "Nesnesitelná lehkost bytí"
+        en: "The Unbearable Lightness of Being"
+        it: "L'Insostenibile Leggerezza dell'Essere"
+  - author: "Lussu, Emilio"
+    books:
+      - original: "Un anno sull'Altipiano"
+        en: "One Year on the High Plateau"
+        it: "Un anno sull'Altipiano"
+  - author: "Mastrocola, Paola"
+    books:
+      - original: "Una barca nel bosco"
+        en: "A Boat in the Woods"
+        it: "Una barca nel bosco"
+  - author: "Maurensig, Paolo"
+    books:
+      - original: "La variante di Lüneburg"
+        en: "The Lüneburg Variation"
+        it: "La variante di Lüneburg"
+  - author: "Meyer, Stephany"
+    books:
+      - original: "The Host"
+        en: 
+        it: "L'Ospite"
+  - author: "Nabokov, Vladimir"
+    books:
+      - original: "Zashchita Luzhina"
+        en: "The Defense"
+        it: "La Difesa di Luzin"
+  - author: "Orwell, George"
+    books:
+      - original: "Animal Farm"
+        en: 
+        it: "La Fattoria degli Animali"
+      - original: "Nineteen Eighty-Four"
+        en:
+        it: "1984"
+  - author: "Pennacchi, Antonio"
+    books:
+      - original: "Storia di Karel"
+        en: "Story of Karel"
+        it: "Storia di Karel"
+  - author: "Poe, Edgar Allan"
+    books:
+      - original: "Tales"
+        en: 
+        it: "Racconti del Terrore"
+  - author: "Remarque, Erich Maria"
+    books:
+      - original: "Im Westen nichts Neues"
+        en: "All Quiet on the Western Front"
+        it: "Niente di Nuovo sul Fronte Occidentale"
+  - author: "Rumiz, Paolo"
+    books:
+      - original: "Trans Europa Express"
+        en: "The Fault Line: Traveling the Other Europe, from Finland to Ukraine"
+        it: "Trans Europa Express"
+  - author: "Saint-Exupery, Antoine de"
+    books:
+      - original: "Le Petit Prince"
+        en: "The Little Prince"
+        it: "Il Piccolo Principe"
+  - author: "Salgari, Emilio"
+    books:
+      - original: "Il Corsaro Nero"
+        en: "The Black Corsair"
+        it: "Il Corsaro Nero"
+  - author: "Salinger, J.D."
+    books:
+      - original: "The Catcher in the Rye"
+        en: 
+        it: "Il Giovane Holden"
+  - author: "Saviano, Roberto"
+    books:
+      - original: "La Paranza dei Bambini"
+        en: "The Piranhas: The Boy Bosses of Naples"
+        it: "La Paranza dei Bambini"
+      - original: "Bacio Feroce"
+        en: "Savage Kiss"
+        it: "Bacio Feroce"
+  - author: "Shakespeare, William"
+    books:
+      - original: "Hamlet"
+        en: 
+        it: "Amleto"
+      - original: "Romeo and Juliet"
+        en:
+        it: "Romeo e Giulietta"
+  - author: "Stevenson, Robert Louis"
+    books:
+      - original: "Strange Case of Dr Jekyll and Mr Hyde"
+        en: 
+        it: "Il Dottor Jekyll e Mr. Hyde"
+  - author: "Tabucchi, Antonio"
+    books:
+      - original: "Sostiene Pereira"
+        en: "Pereira Maintains"
+        it: "Sostiene Pereira"
+  - author: "Tevis, Walter"
+    books:
+      - original: "The Queen’s Gambit"
+        en: 
+        it: "La Regina degli Scacchi"
+      - original: "Mockingbird"
+        en:
+        it: "Solo il Mimo canta al limitare del Bosco"
+  - author: "Tolkien, J.R.R."
+    books:
+      - original: "The Hobbit"
+        en: 
+        it: "Lo Hobbit"
+      - original: "The Lord of the Rings"
+        en:
+        it: "Il Signore degli Anelli"
+  - author: "Twain, Mark"
+    books:
+      - original: "Roughing It"
+        en: 
+        it: "In Cerca di Guai"
+  - author: "Verne, Jules"
+    books:
+      - original: "Cinq Semaines en ballon"
+        en: "Five Weeks in a Balloon"
+        it: "Cinque Settimane in Pallone"
+      - original: "Voyage au centre de la Terre"
+        en: "Journey to the Center of the Earth"
+        it: "Viaggio al Centro della Terra"
+      - original: "De la Terre à la Lune"
+        en: "From the Earth to the Moon"
+        it: "Dalla Terra alla Luna"
+      - original: "Vingt mille lieues sous les mers"
+        en: "Twenty Thousands Leagues under the Seas"
+        it: "Ventimila Leghe sotto i Mari"
+      - original: "Autour de la Lune"
+        en: "Around the Moon"
+        it: "Intorno alla Luna"
+      - original: "Une Ville flottante"
+        en: "A Floating City"
+        it: "Una Città Galleggiante"
+      - original: "Le Tour du monde en quatre-vingts jours"
+        en: "Around the World in Eighty Days"
+        it: "Il Giro del Mondo in Ottanta Giorni"
+      - original: "L'île mystérieuse"
+        en: "The Mysterious Island"
+        it: "L'Isola Misteriosa"
+      - original: "Michel Strogoff"
+        en: "Michael Strogoff"
+        it: "Michele Strogoff"
+      - original: "Paris au XXe siècle"
+        en: "Paris in the Twentieth Century"
+        it: "Parigi nel Ventesimo Secolo"
+      - original: "Un hivernage dans les glaces"
+        en: "A Winter Amid the Ice"
+        it: "Un Inverno tra i Ghiacci"
+      - original: "Les révoltés de la Bounty"
+        en: "The Mutineers of the Bounty"
+        it: "Gli Ammutinati del Bounty"
+  - author: "Vonnegut, Kurt"
+    books:
+      - original: "God Bless You, Mr. Rosewater, or Pearls Before Swine"
+        en: 
+        it: "Perle ai Porci"
+  - author: "Wells, H.G."
+    books:
+      - original: "The Time Machine"
+        en: 
+        it: "La Macchina del Tempo"
+  - author: "Yagisawa, Satoshi"
+    books:
+      - original: "Morisaki Shoten No Hibi"
+        en: "Days at the Morisaki Bookshop"
+        it: "I miei giorni alla Libreria Morisaki"
+  - author: "Zweig, Stefan"
+    books:
+      - original: "Schachnovelle"
+        en: "The Royal Game"
+        it: "Novella degli scacchi"
+
+essays:
+  - author: "Aurelius, Marcus"
+    books:
+      - original: "Ta eis heauton"
+        en: "Meditations"
+        it: "Pensieri"
+  - author: "Carofiglio, Gianrico"
+    books:
+      - original: "Della Gentilezza e del Coraggio. Breviario di politica e altre cose"
+        en: "On Kindness and Courage"
+        it: "Della Gentilezza e del Coraggio. Breviario di politica e altre cose"
+  - author: "Davis, Martin"
+    books:
+      - original: "The Universal Computer, the Road from Leibniz to Turing"
+        en: 
+        it: "Il Calcolatore Universale"
+  - author: "Faggin, Federico"
+    books:
+      - original: "Silicon: From the Invention of the Microprocessor to the New Science of Consciousness"
+        en: 
+        it: "Silicio. Dall'invenzione del microprocessore alla nuova scienza della consapevolezza"
+  - author: "Fallaci, Oriana"
+    books:
+      - original: "Quel giorno sulla luna"
+        en: "That day on the Moon"
+        it: "Quel giorno sulla luna"
+  - author: "Feynman, Richard"
+    books:
+      - original: "QED: The Strange Theory of Light and Matter"
+        en: 
+        it: "QED. La strana teoria della luce e della materia"
+  - author: "Filippi, Francesco"
+    books:
+      - original: "Noi però gli abbiamo fatto le strade: Le colonie italiane tra bugie, razzismi e amnesie"
+        en: "But we built roads for them: Italian colonies between lies, racism, and amnesia"
+        it: "Noi però gli abbiamo fatto le strade: Le colonie italiane tra bugie, razzismi e amnesie"
+  - author: "Harari, Yuval Noah"
+    books:
+      - original: "Homo Deus: A Brief History of Tomorrow"
+        en: 
+        it: "Homo Deus. Breve Storia del Futuro"
+      - original: "21 Lessons for the 21st Century"
+        en: 
+        it: "21 Lezioni per il XXI Secolo"
+  - author: "Hobsbawm, Eric J."
+    books:
+      - original: "Age of Extremes. The Short Twentieth Century 1914-1991"
+        en: 
+        it: "Il Secolo Breve, 1914-1991"
+  - author: "Isaacson, Walter"
+    books:
+      - original: "Steve Jobs"
+        en: 
+        it: "Steve Jobs"
+  - author: "Kasparov, Garry"
+    books:
+      - original: "How Life Imitates Chess"
+        en: 
+        it: "Gli Scacchi, la Vita"
+  - author: "Martinez, Antonio Garcia"
+    books:
+      - original: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
+        en: 
+        it: "Chaos Monkeys"
+  - author: "Mitnick, Kevin D."
+    books:
+      - original: "The Art of Deception"
+        en: 
+        it: "L'Arte dell'Illusione"
+      - original: "The Art of Intrusion"
+        en: 
+        it: "L'Arte dell'Hacking"
+  - author: "Morris, Desmond"
+    books:
+      - original: "The Naked Ape"
+        en: 
+        it: "La Scimmia Nuda"
+  - author: "Rampini, Federico"
+    books:
+      - original: "Le Linee Rosse. Uomini, Confini, Imperi: le carte geografiche che raccontano il mondo in cui viviamo"
+        en: "The Red Lines. Men, Borders, Empires: The Maps That Tell the Story of the World We Live In."
+        it: "Le Linee Rosse. Uomini, Confini, Imperi: le carte geografiche che raccontano il mondo in cui viviamo"
+  - author: "Rovelli, Carlo"
+    books:
+      - original: "Sette Brevi Lezioni di Fisica"
+        en: "Seven Brief Lessons on Physics"
+        it: "Sette Brevi Lezioni di Fisica"
+      - original: "L’Ordine del Tempo"
+        en: "The Order of Time"
+        it: "L’Ordine del Tempo"
+      - original: "Helgoland"
+        en: 
+        it: "Helgoland"
+      - original: "Buchi bianchi. Dentro l’Orizzonte"
+        en: "White Holes"
+        it: "Buchi bianchi. Dentro l’Orizzonte"
+  - author: "Sims, Peter"
+    books:
+      - original: "Little Bets"
+        en: 
+        it: "Little Bets"
+  - author: "Snowden, Edward"
+    books:
+      - original: "Permanent Record"
+        en: 
+        it: "Errore di Sistema"
+  - author: "Sun Tzu"
+    books:
+      - original: "The Art of War"
+        en: "The Art of War"
+        it: "L'Arte della Guerra"  
+  - author: "Turing, Alan M."
+    books:
+      - original: "Collected works of A.M. Turing. Mechanical Intelligence"
+        en: 
+        it: "Intelligenza meccanica"
+  - author: "Vonnegut, Kurt"
+    books:
+      - original: "A Man Without a Country"
+        en: 
+        it: "Un Uomo senza Patria"
+      - original: "If This Isn’t Nice, What is?: Advice to the Young"
+        en:
+        it: "Quando siete felici, fateci caso"
+  - author: "Von Neumann, John"
+    books:
+      - original: "The Computer and the Brain"
+        en: 
+        it: "Computer e Cervello"
+  - author: "Wu, Tim"
+    books:
+      - original: "The Master Switch: The Rise and Fall of Information Empires"
+        en: 
+        it: "The Master Switch: The Rise and Fall of Information Empires"
+
+template:
+  - author: ""
+    books:
+      - original: ""
+        en: 
+        it: ""
