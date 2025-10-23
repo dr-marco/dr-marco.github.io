@@ -1,92 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/it/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/it/" rel="alternate" type="text/html" /><updated>2025-01-16T16:28:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dr-marco’s blog</title><subtitle>dr-marco&apos;s blog</subtitle><author><name>dr-marco</name></author><entry xml:lang="en"><title type="html">Not every published model is a valid benchmark</title><link href="http://localhost:4000/it/2025/01/16/plastic-waste-detection" rel="alternate" type="text/html" title="Not every published model is a valid benchmark" /><published>2025-01-07T00:00:00+01:00</published><updated>2025-01-07T00:00:00+01:00</updated><id>http://localhost:4000/2025/01/16/plastic-waste-detection-en</id><content type="html" xml:base="http://localhost:4000/2025/01/16/plastic-waste-detection"><![CDATA[<p>Training a model with deep leaning techniques could be very complex if you don’t know how to set up properly hyperparameters. 
-To avoid headaches you can tune them and find the subset of values that will optimize the performances of your model.
-Or if you are short on time you could do a little research and look if somebody already did the tuning part.
-You can register the hyperparameters configuration and also take others results as benchmark for your model.
-The purpose of doing that is to get a starting point for your tuning and a benchmark to improve if possible.
-This is in the end what I wanted to do in one of the last projects that I did at university.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="deramundo.com/it/feed.xml" rel="self" type="application/atom+xml" /><link href="deramundo.com/it/" rel="alternate" type="text/html" /><updated>2025-10-24T00:17:23+02:00</updated><id>deramundo.com/feed.xml</id><title type="html">dr-marco’s blog</title><subtitle>dr-marco&apos;s blog</subtitle><author><name>dr-marco</name></author><entry xml:lang="it"><title type="html">Non tutti i modelli pubblicati sono dei benchmark validi</title><link href="deramundo.com/it/2025/10/15/plastic-waste-detection" rel="alternate" type="text/html" title="Non tutti i modelli pubblicati sono dei benchmark validi" /><published>2025-10-15T00:00:00+02:00</published><updated>2025-10-15T00:00:00+02:00</updated><id>deramundo.com/2025/10/15/plastic-waste-detection-it</id><content type="html" xml:base="deramundo.com/2025/10/15/plastic-waste-detection"><![CDATA[<p>Allenare un modello con tecniche di deep learning può essere una vera rottura se 
+non sai come impostare correttamente gli iperparametri.
+Per evitare inutili mal di testa, puoi fare il tuning e trovare quel sottoinsieme di valori che ottimizzerà le performance del tuo modello.
+Oppure, se hai poco tempo, puoi fare una piccola ricerca e vedere se qualcuno ha 
+già addestrato il modello.
+Puoi recuperare la configurazione degli iperparametri e usare i loro risultati 
+come benchmark per il tuo modello.
+Il senso di fare ciò è avere un punto di partenza per il tuo tuning e un 
+benchmark da migliorare, se possibile.
+Questo è praticamente quello che volevo fare in uno degli ultimi progetti che ho 
+svolto in università.</p>
 
-<h3 id="my-assignment">My assignment</h3>
+<h3 id="il-mio-compito">Il mio compito</h3>
 
-<p>My assignment was to train a model that is able to detect plastic waste in water surfaces like rivers and lakes. 
-I worked with a friend of mine and both decided to use the YOLOv8 architecture and train it with a dataset that was available during our work.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>
-We did some experiment without any particular result in performance so we have looked around searching for academic papers or some 
-post on the internet that was somehow relevant.
-We have bumped mostly in detection with dataset containing satellite images except one study published in early 2024<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> that
-was related with the same our dataset and model, lucky us. 
-So reading the paper, we found out that we could reach good performance with a specific configuration. Nice!</p>
+<p>Il mio compito era allenare un modello in grado di rilevare rifiuti di plastica 
+sulle superfici d’acqua come fiumi e laghi.
+Ho lavorato con un mio amico ed entrambi abbiamo deciso di usare l’architettura 
+YOLOv8 e allenarla con un dataset che era disponibile per il nostro progetto.<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>
+Abbiamo fatto alcuni esperimenti senza ottenere alcun risultato degno di nota in 
+termini di performance, così ci siamo guardati in giro cercando articoli 
+accademici o qualche
+post su internet che potesse risultare rilevante.
+Siamo incappati principalmente in paper sulla detection con dataset contenenti 
+immagini satellitari… tranne uno studio pubblicato all’inizio del 2024<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> che
+era legato esattamente al nostro stesso dataset e modello. Che fortuna.
+Così, leggendo il paper, abbiamo scoperto che potevamo raggiungere buone 
+performance con una configurazione specifica. Fantastico!</p>
 
-<p>Let’s try if we can replicate those results and… nope, still bad output with high evaluation loss.
-Maybe we did the training execution with some hyperparameter or other details different. Let’s try again but with 
-the very same values as hyperparameters. Nothing, performances don’t want to improve.</p>
+<p>Proviamo a replicare quei risultati e… nope, ancora risultati scadenti con una 
+loss di validazione alta.
+Forse avevamo eseguito il training con qualche iperparametro o dettaglio diversi. 
+Proviamo di nuovo, ma con
+gli esatti stessi valori di iperparametri. Ancora niente. Le performance non 
+volevano migliorare.</p>
 
 <h3 id="wtf">WTF?!</h3>
 
-<p>It seems reasonable to look for bugs or misconfigurations by our fault (after all I’m still a master student) but when no solution
-is able to give better results some doubts come out.</p>
+<p>Sembra ragionevole cercare bug o errori di configurazione da parte nostra 
+(dopotutto, ero ancora uno studente magistrale), ma quando <em>niente</em> di ciò che 
+provi
+è in grado di dare risultati migliori, inizi ad avere dei dubbi.</p>
 
-<p>Are we sure that the performances shown in the paper are legit? Is there any kind of catch in it?</p>
+<p>Siamo sicuri che le performance mostrate nel paper siano legittime? Non è che 
+c’è qualche dettaglio che non torna?</p>
 
-<p>So, to answer that question we have to do only one thing: find a method to replicate academic results even if it means to
-make stupid assumptions on dataset, model or techniques. And we did it, we have made very poor configurations until we found out 
-that the problem with the academic study wasn’t in the hyperparameters values but with the use of the dataset.</p>
+<p>Quindi dovevamo fare solo una cosa: trovare un metodo per replicare i loro 
+risultati, anche a costo
+di fare supposizioni stupide sul dataset, sul modello o sulle tecniche utilizzate. 
+E l’abbiamo fatto. Abbiamo continuato ad addestrare modelli usando 
+configurazioni “sbagliate” finché non abbiamo scoperto
+che il problema dello studio accademico non era affatto negli iperparametri, ma 
+in come avevano usato il dataset.</p>
 
-<p>Trivia: what happens if you train a model with a train set, as in a dataset used for the training phase, and then you use the very
-same train set also as val set, as in the dataset which purpose is to validate the model? Spoiler: amazing results shown but same shitty model.</p>
+<p>Domanda: cosa succede se alleni un modello con un <code class="language-plaintext highlighter-rouge">train</code> set (cioè, un dataset 
+usato per la fase di addestramento) e poi usi lo
+<em>stesso identico</em> <code class="language-plaintext highlighter-rouge">train</code> set anche come <code class="language-plaintext highlighter-rouge">val</code> set (cioè, il dataset il cui scopo 
+è validare il modello)? Spoiler: ottieni risultati che sembrano fantastici, ma 
+con lo <em>stesso modello di merda</em>.</p>
 
-<h3 id="diving-into-details">Diving into details</h3>
+<h3 id="entriamo-nei-dettagli">Entriamo nei dettagli</h3>
 
-<p>The dataset used <sup id="fnref:1:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> contains 3 different subsets, <code class="language-plaintext highlighter-rouge">train</code>, <code class="language-plaintext highlighter-rouge">val</code> and <code class="language-plaintext highlighter-rouge">test</code>, each designed for his specific purpose as mentioned before in the sarcastic question (the test set is used to test the model once the training phase is completed).
-Inside each subset there are quite a lot different images labeled with 4 different kind of classes using the YOLO specification (see the <a href="https://docs.ultralytics.com/datasets/detect/">YOLO documentation</a> to learn more about it).</p>
+<p>Il dataset usato <sup id="fnref:1:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> contiene 3 sottoinsiemi diversi, <code class="language-plaintext highlighter-rouge">train</code>, <code class="language-plaintext highlighter-rouge">val</code> e <code class="language-plaintext highlighter-rouge">test</code>, 
+ognuno progettato per il suo scopo specifico, come ho detto prima in quella 
+domanda sarcastica (il <code class="language-plaintext highlighter-rouge">test</code> set è usato per testare il modello una volta 
+completata la fase di addestramento).
+Dentro ogni sottoinsieme, ci sono un sacco di immagini diverse etichettate con 4 
+diversi tipi di classi usando la specifica YOLO (dai un’occhiata alla <a href="https://docs.ultralytics.com/datasets/detect/">documentazione di YOLO</a> per saperne di più).</p>
 
-<p>In order to evaluate the goodness of the trained model many metrics are used like precision, recall and loss functions. 
-In particular for object detection models the main loss functions are the <code class="language-plaintext highlighter-rouge">box_loss</code> and <code class="language-plaintext highlighter-rouge">cls_loss</code>, the latter tell us the misclassification rate and the former the error during the drawing of the box over the detected objects on the image.
-But one of the best metric that can summarize how good the detection model really was is the <code class="language-plaintext highlighter-rouge">mAP50</code>: mean average precision over all classes used.
-Again, for more details about the metrics that can be used in object detection models check the documentation <a href="https://docs.ultralytics.com/guides/yolo-performance-metrics/">here</a>.</p>
+<p>Per valutare la bontà del modello addestrato, si usano molte metriche, come 
+precision, recall e funzioni di loss.
+In particolare, per i modelli di object detection, le principali funzioni di 
+loss sono la <code class="language-plaintext highlighter-rouge">box_loss</code> e la <code class="language-plaintext highlighter-rouge">cls_loss</code>. La <code class="language-plaintext highlighter-rouge">cls_loss</code> (loss di classificazione) 
+ci dice il tasso di errata classificazione, e la <code class="language-plaintext highlighter-rouge">box_loss</code> ci dice l’errore 
+durante il disegno del riquadro (box) sugli oggetti rilevati.
+Ma una delle migliori metriche che riassume quanto è realmente buono il modello 
+di detection è la <code class="language-plaintext highlighter-rouge">mAP50</code>: mean average precision su tutte le classi usate.
+Di nuovo, per maggiori dettagli sulle metriche che si possono usare nei modelli 
+di object detection, controlla la documentazione <a href="https://docs.ultralytics.com/guides/yolo-performance-metrics/">qui</a>.</p>
 
-<p>For simplicity here I will comment only the mAP50: this percentage metric is better and better when it is higher and higher until 100%.</p>
+<p>Per semplicità, mi concentrerò solo sulla <code class="language-plaintext highlighter-rouge">mAP50</code>: questa metrica percentuale 
+significa semplicemente “più alto è, meglio è”, dove 100% è la perfezione.</p>
 
-<p>With our tests we were able to reach an overall mAP50 of 39.1%. It wasn’t very good since the model was good with a specific class, <code class="language-plaintext highlighter-rouge">PLASTIC_BOTTLE</code> and bad with the others. And as you can see in the following graphs there is no margine of improvements because the model with extra training could overfit.</p>
+<p>Con i nostri test effettivi (usando il <code class="language-plaintext highlighter-rouge">val</code> set corretto), siamo riusciti a 
+raggiungere solo un <code class="language-plaintext highlighter-rouge">mAP50</code> complessivo del 39.1%. Non era un granché, visto che 
+il modello era performante con una classe specifica, <code class="language-plaintext highlighter-rouge">PLASTIC_BOTTLE</code>, e scarso 
+con le altre. E come potete vedere nei grafici seguenti, non c’è margine di 
+miglioramento perché il modello andrebbe solo in overfitting con ulteriore training.</p>
 
 <p><img src="/assets/images/plastic_detection/results_1.png" alt="Loss functions and metrics of our trained model" />
-<em>Loss functions and metrics of our trained model</em></p>
+<em>Funzioni di loss e metriche del nostro modello allenato (quello legittimo)</em></p>
 
-<p>As you can see these metrics weren’t as good as those in the paper. The authors claimed their model could reach 68.8%</p>
+<p>Come potete vedere, queste metriche non erano neanche lontanamente buone come 
+quelle del paper. Gli autori sostenevano che il loro modello potesse raggiungere 
+il 68.8%!</p>
 
 <p><img src="/assets/images/plastic_detection/results_2.png" alt="Loss functions and metrics of the paper model" /> 
-<em>Loss functions and metrics of the paper model (sorry for bad image resolution)</em></p>
+<em>Funzioni di loss e metriche del modello del paper (scusate per la bassa risoluzione dell’immagine)</em></p>
 
 <p><img src="/assets/images/plastic_detection/results_3.png" alt="Loss functions and metrics matching paper model" width="1440px" />
-<em>Quite the same behavior with the metrics</em></p>
+<strong><em>E guardate un po’! I nostri risultati quando copiamo il loro errore. Praticamente lo stesso comportamento.</em></strong></p>
 
-<h3 id="ok-why-is-it-bad">Ok, why is it bad?</h3>
+<h3 id="ok-perché-è-così-grave">Ok, perché è così grave?</h3>
 
-<p>as you can see
-overfitting
-memorizing the dataset and not learning the detection function</p>
+<p>Quindi, perché questa cosa è così grave?
+Come potete vedere dai nostri risultati “falsati” (la terza immagine), le 
+metriche sembrano fantastiche. La validation loss crolla e il mAP50 schizza al 
+62.1%, praticamente proprio come sosteneva il paper.
+Ma il modello non sta imparando nulla. Sta memorizzando.</p>
 
-<p>Using the same subset of data for both training and validation in a machine learning model is problematic because it leads to overfitting 
-and an inaccurate assessment of model performance. The model essentially “memorizes” the training data, resulting in artificially high accuracy 
-during validation. This provides no indication of how the model will perform on unseen data, undermining its generalizability and real-world 
-applicability. Proper validation requires a separate, unseen dataset to evaluate the model’s ability to generalize beyond the training data.</p>
+<p>Pensatela così: è come dare a uno studente un test di pratica da 100 domande e 
+poi dargli come esame finale le stesse identiche 100 domande. Lo studente 
+prenderebbe il massimo dei voti, giusto? Ma ha davvero imparato la materia? 
+Neanche per idea. Ha solo imparato a memoria le risposte.</p>
+
+<p>È esattamente quello che sta succedendo qui. Il <code class="language-plaintext highlighter-rouge">val</code> set dovrebbe essere il 
+“vero test” per controllare se il modello è in grado di generalizzare, cioè se 
+riesce a trovare la plastica in immagini nuove che non ha mai visto prima.
+Usando il <code class="language-plaintext highlighter-rouge">train</code> set come <code class="language-plaintext highlighter-rouge">val</code> set, il modello impara semplicemente a memoria 
+i dati di training. Non sta imparando a rilevare le caratteristiche di una 
+bottiglia di plastica; sta imparando “nell’<em>immagine_123.jpg</em>, c’è un riquadro 
+alle coordinate [x, y, w, h]”. Questa è la definizione classica di overfitting, 
+ed è un errore colossale nel machine learning.
+Il modello sembra un genio sulla carta, ma è completamente inutile nel mondo 
+reale. Nell’istante in cui gli daresti una foto nuova dal <code class="language-plaintext highlighter-rouge">test</code> set, 
+fallirebbe miseramente.</p>
+
+<p>Quindi, la morale della favola? Siate sempre scettici. Solo perché qualcosa è 
+“pubblicato” non significa che sia valido e corretto. Cercate sempre di 
+replicare i risultati, e se qualcosa puzza (o è troppo bello per essere vero), 
+probabilmente lo è. Fidatevi del vostro <code class="language-plaintext highlighter-rouge">val</code> set… purché sia quello giusto!</p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
-      <p>Dataset used: <code class="language-plaintext highlighter-rouge">plastic_in_river</code>. Unfortunately the dataset is not available anymore. <a href="http://web.archive.org/web/20240821170803/https://huggingface.co/datasets/kili-technology/plastic_in_river">Here</a> the wayback machine archive linking dataset page from huggingface in August 2024. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+
+      <p>Dataset usato: <code class="language-plaintext highlighter-rouge">plastic_in_river</code>. Sfortunatamente il dataset non è più disponibile. <a href="http://web.archive.org/web/20240821170803/https://huggingface.co/datasets/kili-technology/plastic_in_river">Qui</a> l’archivio della Wayback Machine che linka la pagina del dataset su Hugging Face ad agosto 2024. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
     </li>
     <li id="fn:2">
-      <p><em>Plastic Waste on Water Surfaces Detection Using Convolutional Neural Networks</em>: <a href="https://ceur-ws.org/Vol-3668/paper13.pdf">Here</a> you can read the paper <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+
+      <p><em>Plastic Waste on Water Surfaces Detection Using Convolutional Neural Networks</em>: <a href="https://ceur-ws.org/Vol-3668/paper13.pdf">Qui</a> potete leggere il paper <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>dr-marco</name></author><summary type="html"><![CDATA[Training a model with deep leaning techniques could be very complex if you don’t know how to set up properly hyperparameters. To avoid headaches you can tune them and find the subset of values that will optimize the performances of your model. Or if you are short on time you could do a little research and look if somebody already did the tuning part. You can register the hyperparameters configuration and also take others results as benchmark for your model. The purpose of doing that is to get a starting point for your tuning and a benchmark to improve if possible. This is in the end what I wanted to do in one of the last projects that I did at university.]]></summary></entry><entry xml:lang="it"><title type="html">Non tutti i modelli pubblicati sono dei benchmark validi</title><link href="http://localhost:4000/it/2025/01/07/plastic-waste-detection" rel="alternate" type="text/html" title="Non tutti i modelli pubblicati sono dei benchmark validi" /><published>2025-01-07T00:00:00+01:00</published><updated>2025-01-07T00:00:00+01:00</updated><id>http://localhost:4000/2025/01/07/plastic-waste-detection-it</id><content type="html" xml:base="http://localhost:4000/2025/01/07/plastic-waste-detection"><![CDATA[<p>Training a model with deep leaning technics could be very complex if you don’t know how to set up properly hyperparameters. 
-To avoid headaches you can tune the hyperparameters and find the subset of values that will increase the performance of your model.
-Or if you are short on time you could do a little research and look if somebody already do the tuning part.
-You can register the hyperparameters configuration and also take others results as benchmark for your work.
-The purpouse of doing that is to get a work direction in the first place, with a starting point for your tuning, and a benchmark to improve if possible.
-This is what I wanted to do in one of the last projects that I did at university.</p>
-
-<h3 id="contesto-del-modello">Contesto del modello</h3>
-
-<p>My assignment was to train a model that is able to detect plastic waste in water surfaces like rivers and lakes. 
-I worked with a friend of mine and both decided to use the YOLOv8 architecture and train it with a dataset that was aviable during our work.
-We did some experiment without any particular result in performance.</p>]]></content><author><name>dr-marco</name></author><summary type="html"><![CDATA[Training a model with deep leaning technics could be very complex if you don’t know how to set up properly hyperparameters. To avoid headaches you can tune the hyperparameters and find the subset of values that will increase the performance of your model. Or if you are short on time you could do a little research and look if somebody already do the tuning part. You can register the hyperparameters configuration and also take others results as benchmark for your work. The purpouse of doing that is to get a work direction in the first place, with a starting point for your tuning, and a benchmark to improve if possible. This is what I wanted to do in one of the last projects that I did at university.]]></summary></entry></feed>
+</div>]]></content><author><name>dr-marco</name></author><summary type="html"><![CDATA[Allenare un modello con tecniche di deep learning può essere una vera rottura se non sai come impostare correttamente gli iperparametri. Per evitare inutili mal di testa, puoi fare il tuning e trovare quel sottoinsieme di valori che ottimizzerà le performance del tuo modello. Oppure, se hai poco tempo, puoi fare una piccola ricerca e vedere se qualcuno ha già addestrato il modello. Puoi recuperare la configurazione degli iperparametri e usare i loro risultati come benchmark per il tuo modello. Il senso di fare ciò è avere un punto di partenza per il tuo tuning e un benchmark da migliorare, se possibile. Questo è praticamente quello che volevo fare in uno degli ultimi progetti che ho svolto in università.]]></summary></entry></feed>

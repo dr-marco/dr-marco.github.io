@@ -1,8 +1,12 @@
 current:
-  - author: Hamming, Richard
-    original: "The Art of Doing Science and Engineering, Learning to Learn"
+  - author: "Calvino, Italo"
+    original: "Se una notte d'inverno un viaggiatore"
+    en: "If on a winter's night a traveler"
+    it: "Se una notte d'inverno un viaggiatore"
+  - author: "Feynman, Richard"
+    original: "The Pleasure of Finding Things Out"
     en: 
-    it: "The Art of Doing Science and Engineering, Learning to Learn"
+    it: "Il Piacere di Scoprire"
   - author: "Hofstader, Douglas R."
     original: "Gödel, Escher, Bach: an Eternal Golden Braid"
     en: 
@@ -11,14 +15,14 @@ current:
     original: "World Order"
     en:
     it: "Ordine Mondiale"
+  - author: "Peterson, Jordan B."
+    original: "12 Rules for Life, an Antidote to Chaos"
+    en: 
+    it: "12 Regole per la Vita, un Antidoto al Caos"
   - author: Smith, Denis Mack
     original: "Modern Italy. A Political History"
     en:
     it: "Storia d'Italia. Dal 1861 al 1997"
-  - author: "Vonnegut, Kurt"
-    original: "Breakfast of Champions"
-    en:
-    it: "La Colazione dei Campioni, ovvero Addio Triste Lunedì"
 
 novels:
   - author: "Abbott, Edwin A."
@@ -41,6 +45,11 @@ novels:
       - original: "Omero, Iliade"
         en: "An Iliad"
         it: "Omero, Iliade"
+  - author: "Bradbury, Ray"
+    books:
+      - original: "Fahrenheit 451"
+        en: 
+        it: "Fahrenheit 451"
   - author: "Brecht, Bertolt"
     books:
       - original: "Leben des Galilei"
@@ -71,6 +80,11 @@ novels:
       - original: "Racconti di Montalbano"
         en: "Montalbano's First Case and Other Stories"
         it: "Racconti di Montalbano"
+  - author: "Camus, Albert"
+    books:
+      - original: "L'Étranger"
+        en: "The Stranger"
+        it: "Lo Straniero"
   - author: "Christie, Agata"
     books:
       - original: "Murder on the Orient Express"
@@ -94,6 +108,19 @@ novels:
       - original: "Belye nochi"
         en: "White Nights"
         it: "Le Notti Bianche"
+      - original: "Zapíski iz podpólʹya"
+        en: "Notes from Underground"
+        it: "Ricordi dal Sottosuolo"
+  - author: "Dumas, Alexandre"
+    books:
+      - original: "Le Comte de Monte-Cristo"
+        en: "The Count of Monte Cristo"
+        it: "Il conte di Montecristo"
+  - author: "Ellis, Bret Easton"
+    books:
+      - original: "Less than Zero"
+        en:
+        it: "Meno di Zero"
   - author: "Faletti, Giorgio"
     books:
       - original: "La Piuma"
@@ -308,16 +335,30 @@ novels:
       - original: "God Bless You, Mr. Rosewater, or Pearls Before Swine"
         en: 
         it: "Perle ai Porci"
+      - original: "Breakfast of Champions"
+        en:
+        it: "La Colazione dei Campioni, ovvero Addio Triste Lunedì"
   - author: "Wells, H.G."
     books:
       - original: "The Time Machine"
         en: 
         it: "La Macchina del Tempo"
+      - original: "The Country of the Blind"
+        en:
+        it: "Nel Paese dei Ciechi"
+  - author: "Williams, Tennessee"
+    books: 
+      - original: "A Streetcar named Desire"
+        en:
+        it: "Un tram che si chiama Desiderio"
   - author: "Yagisawa, Satoshi"
     books:
       - original: "Morisaki Shoten No Hibi"
         en: "Days at the Morisaki Bookshop"
         it: "I miei giorni alla Libreria Morisaki"
+      - original: "Zoku - Morisaki Shoten No Hibi"
+        en: "More days at the Morisaki Bookshop"
+        it: "Una sera tra amici a Jinbocho"
   - author: "Zweig, Stefan"
     books:
       - original: "Schachnovelle"
@@ -335,6 +376,11 @@ essays:
       - original: "Della Gentilezza e del Coraggio. Breviario di politica e altre cose"
         en: "On Kindness and Courage"
         it: "Della Gentilezza e del Coraggio. Breviario di politica e altre cose"
+  - author: "Clear, James"
+    books:
+      - original: "Atomic Habits, an Easy and Proven Way to Build Good Habits and Break Bad Ones"
+        en:
+        it: "Atomic Habits, Piccole abitudini per grandi cambiamenti"
   - author: "Davis, Martin"
     books:
       - original: "The Universal Computer, the Road from Leibniz to Turing"
@@ -363,6 +409,11 @@ essays:
       - original: "Noi però gli abbiamo fatto le strade: Le colonie italiane tra bugie, razzismi e amnesie"
         en: "But we built roads for them: Italian colonies between lies, racism, and amnesia"
         it: "Noi però gli abbiamo fatto le strade: Le colonie italiane tra bugie, razzismi e amnesie"
+  - author: "Hamming, Richard"
+    books:
+      - original: "The Art of Doing Science and Engineering, Learning to Learn"
+        en: 
+        it: "The Art of Doing Science and Engineering, Learning to Learn"
   - author: "Harari, Yuval Noah"
     books:
       - original: "Homo Deus: A Brief History of Tomorrow"
@@ -440,7 +491,7 @@ essays:
         it: "Errore di Sistema"
   - author: "Sun Tzu"
     books:
-      - original: "The Art of War"
+      - original: "Sūnzǐ Bīngfǎ"
         en: "The Art of War"
         it: "L'Arte della Guerra"  
   - author: "Turing, Alan M."

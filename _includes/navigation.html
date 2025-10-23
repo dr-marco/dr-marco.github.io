@@ -25,20 +25,24 @@
     <ul class="navbar-nav me-auto">
       {% for lang in site.languages %}
         {% assign icon = site.data[lang].l10n.icon %}
+        {% assign icon_tag = site.data[lang].l10n.icon_tag %}
         {% if lang == site.active_lang %}
-{{ icon }}
+        <li class="nav-item">
+          <span class="fi fi-{{ icon_tag }}"></span>
+        </li>
         {% else %}
           {% if lang == site.default_lang %}
             <li class="nav-item">
-              <a href=" {{ page.url }}">{{ icon }}</a>
+              <a href=" {{ page.url }}"><span class="fi fi-{{ icon_tag }}"></span> </a>
             </li>
           {% else %}
             <li class="nav-item">
-              <a href="/{{ lang }}{{ page.url }}">{{ icon }} </a>
+              <a href="/{{ lang }}{{ page.url }}"><span class="fi fi-{{ icon_tag }}"></span> </a> 
             </li>
           {% endif %}
         {% endif %}
       {% endfor %}
+      
     </ul>
   </div>
 </nav>
