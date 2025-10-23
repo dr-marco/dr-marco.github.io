@@ -3,7 +3,7 @@ layout: post
 title: Non tutti i modelli pubblicati sono dei benchmark validi
 lang: it
 permalink: 2025/01/07/plastic-waste-detection
-published: false
+published: true
 ---
 
 Training a model with deep leaning technics could be very complex if you don't know how to set up properly hyperparameters. 

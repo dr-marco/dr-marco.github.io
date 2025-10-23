@@ -11,10 +11,6 @@ current:
     original: "World Order"
     en:
     it: "Ordine Mondiale"
-  - author: "Rumiz, Paolo"
-    original: "È Oriente"
-    en: "It is East"
-    it: "È Oriente"
   - author: Smith, Denis Mack
     original: "Modern Italy. A Political History"
     en:
@@ -204,6 +200,9 @@ novels:
       - original: "Trans Europa Express"
         en: "The Fault Line: Traveling the Other Europe, from Finland to Ukraine"
         it: "Trans Europa Express"
+      - original: "È Oriente"
+        en: "It is East"
+        it: "È Oriente"
   - author: "Saint-Exupery, Antoine de"
     books:
       - original: "Le Petit Prince"
@@ -356,6 +355,9 @@ essays:
       - original: "QED: The Strange Theory of Light and Matter"
         en: 
         it: "QED. La strana teoria della luce e della materia"
+      - original: "The Meaning of It All"
+        en: 
+        it: "Il senso delle cose"
   - author: "Filippi, Francesco"
     books:
       - original: "Noi però gli abbiamo fatto le strade: Le colonie italiane tra bugie, razzismi e amnesie"
@@ -384,6 +386,11 @@ essays:
       - original: "How Life Imitates Chess"
         en: 
         it: "Gli Scacchi, la Vita"
+  - author: "Keim, Jean Alphonse"
+    books: 
+      - original: "Histoire de la photographie"
+        en: "History of photography"
+        it: "Breve storia della fotografia"
   - author: "Martinez, Antonio Garcia"
     books:
       - original: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
