@@ -1,12 +1,8 @@
 current:
-  - author: "Calvino, Italo"
-    original: "Se una notte d'inverno un viaggiatore"
-    en: "If on a winter's night a traveler"
-    it: "Se una notte d'inverno un viaggiatore"
-  - author: "Feynman, Richard"
-    original: "The Pleasure of Finding Things Out"
-    en: 
-    it: "Il Piacere di Scoprire"
+  - author: "Bulgakov, Mikhail"
+    original: "Мастер и Маргарита"
+    en: "The Master and Margarita"
+    it: "Il Maestro e Margherita"
   - author: "Hofstader, Douglas R."
     original: "Gödel, Escher, Bach: an Eternal Golden Braid"
     en: 
@@ -75,6 +71,9 @@ novels:
       - original: "Il Cavaliere Inesistente"
         en: "The Nonexistent Knight"
         it: "Il Cavaliere Inesistente"
+      - original: "Se una notte d'inverno un viaggiatore"
+        en: "If on a winter's night a traveler"
+        it: "Se una notte d'inverno un viaggiatore"
   - author: "Cammilleri Andrea"
     books:
       - original: "Racconti di Montalbano"
@@ -245,6 +244,11 @@ novels:
       - original: "The Catcher in the Rye"
         en: 
         it: "Il Giovane Holden"
+  - author: "Salvi, Giulana"
+    books:
+      - original: "Clementina"
+        en:
+        it: "Clementina"
   - author: "Saviano, Roberto"
     books:
       - original: "La Paranza dei Bambini"
@@ -404,6 +408,9 @@ essays:
       - original: "The Meaning of It All"
         en: 
         it: "Il senso delle cose"
+      - original: "The Pleasure of Finding Things Out"
+        en: 
+        it: "Il Piacere di Scoprire"
   - author: "Filippi, Francesco"
     books:
       - original: "Noi però gli abbiamo fatto le strade: Le colonie italiane tra bugie, razzismi e amnesie"
