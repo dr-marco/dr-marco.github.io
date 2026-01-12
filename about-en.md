@@ -5,7 +5,7 @@ lang: en
 permalink: /about/
 ---
 
-I'm a master's student in Computer Science and Engineering who wants to keep learning more and more about cool things. 
+I'm a guy that had studied Computer Science and Engineering and wants to keep learning more and more about cool things. 
 I've started sharing here a few small projects that I work on from time to time.
 
 ### Contact me
