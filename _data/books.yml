@@ -1,8 +1,4 @@
 current:
-  - author: "Bulgakov, Mikhail"
-    original: "Мастер и Маргарита"
-    en: "The Master and Margarita"
-    it: "Il Maestro e Margherita"
   - author: "Hofstader, Douglas R."
     original: "Gödel, Escher, Bach: an Eternal Golden Braid"
     en: 
@@ -12,13 +8,21 @@ current:
     en:
     it: "Ordine Mondiale"
   - author: "Peterson, Jordan B."
-    original: "12 Rules for Life, an Antidote to Chaos"
+    original: "Beyond Order, 12 More Rules for Life"
     en: 
-    it: "12 Regole per la Vita, un Antidoto al Caos"
+    it: "Oltre l'Ordine. 12 Nuove Regole per la Vita"
   - author: Smith, Denis Mack
     original: "Modern Italy. A Political History"
     en:
     it: "Storia d'Italia. Dal 1861 al 1997"
+  - author: "Tolstoj, Lev Nikolayevich"
+    original: "Smert' Ivána Ilyichá"
+    en: "The Death of Ivan Ilyich"
+    it: "La morte di Ivan Il'ič"
+  - author: "Verne, Jules"
+    original: "Deux ans de vacances"
+    en: "Two Years' Vacation"
+    it: "Due anni di Vacanze"
 
 novels:
   - author: "Abbott, Edwin A."
@@ -61,6 +65,9 @@ novels:
       - original: "Sobach'ye serdtse"
         en: "Heart of a Dog"
         it: "Cuore di Cane"
+      - original: "Мастер и Маргарита"
+        en: "The Master and Margarita"
+        it: "Il Maestro e Margherita"
   - author: "Buzzati, Dino"
     books:
       - original: "Il Deserto dei Tartari"
@@ -467,6 +474,11 @@ essays:
       - original: "The Naked Ape"
         en: 
         it: "La Scimmia Nuda"
+  - author: "Peterson, Jordan B."
+    books:
+      - original: "12 Rules for Life, an Antidote to Chaos"
+        en: 
+        it: "12 Regole per la Vita, un Antidoto al Caos"
   - author: "Rampini, Federico"
     books:
       - original: "Le Linee Rosse. Uomini, Confini, Imperi: le carte geografiche che raccontano il mondo in cui viviamo"
