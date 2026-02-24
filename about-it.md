@@ -11,4 +11,4 @@ Ho iniziato a condividere qui alcuni piccoli progetti su cui lavoro di tanto in 
 
 ### Contattami
 
-[deramundo.marco@gmail.com](mailto:deramundo.marco@gmail.com)
+[marco@deramundo.com](mailto:marco@deramundo.com)
