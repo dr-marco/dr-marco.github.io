@@ -15,14 +15,14 @@ current:
     original: "Modern Italy. A Political History"
     en:
     it: "Storia d'Italia. Dal 1861 al 1997"
-  - author: "Tolstoj, Lev Nikolayevich"
-    original: "Smert' Ivána Ilyichá"
-    en: "The Death of Ivan Ilyich"
-    it: "La morte di Ivan Il'ič"
   - author: "Verne, Jules"
     original: "Deux ans de vacances"
     en: "Two Years' Vacation"
     it: "Due anni di Vacanze"
+  - author: "Weir, Andy"
+    original: "Project Hail Mary"
+    en: 
+    it: "Project Hail Mary"
 
 novels:
   - author: "Abbott, Edwin A."
@@ -298,6 +298,11 @@ novels:
       - original: "The Lord of the Rings"
         en:
         it: "Il Signore degli Anelli"
+  - author: "Tolstoj, Lev Nikolayevich"
+    books:
+      - original: "Smert' Ivána Ilyichá"
+        en: "The Death of Ivan Ilyich"
+        it: "La morte di Ivan Il'ič"
   - author: "Twain, Mark"
     books:
       - original: "Roughing It"
