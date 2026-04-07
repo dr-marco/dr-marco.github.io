@@ -1,28 +1,24 @@
 current:
+  - author: "Dumas, Alexandre"
+    original: "Les Trois Mousquetaires"
+    en: "The Three Musketeers"
+    it: "I Tre Moschettieri"
   - author: "Hofstader, Douglas R."
     original: "Gödel, Escher, Bach: an Eternal Golden Braid"
     en: 
     it: "Gödel, Escher, Bach: un'Eterna Ghirlanda Brillante"
-  - author: Kissinger, Henry
-    original: "World Order"
-    en:
-    it: "Ordine Mondiale"
   - author: "Peterson, Jordan B."
     original: "Beyond Order, 12 More Rules for Life"
     en: 
     it: "Oltre l'Ordine. 12 Nuove Regole per la Vita"
+  - author: "Saramago, José de Sousa"
+    original: "Ensaio sobre a Cegueira"
+    en: "Blindness"
+    it: "Cecità"  
   - author: Smith, Denis Mack
     original: "Modern Italy. A Political History"
     en:
     it: "Storia d'Italia. Dal 1861 al 1997"
-  - author: "Verne, Jules"
-    original: "Deux ans de vacances"
-    en: "Two Years' Vacation"
-    it: "Due anni di Vacanze"
-  - author: "Weir, Andy"
-    original: "Project Hail Mary"
-    en: 
-    it: "Project Hail Mary"
 
 novels:
   - author: "Abbott, Edwin A."
@@ -346,6 +342,9 @@ novels:
       - original: "Les révoltés de la Bounty"
         en: "The Mutineers of the Bounty"
         it: "Gli Ammutinati del Bounty"
+      - original: "Deux ans de vacances"
+        en: "Two Years' Vacation"
+        it: "Due anni di Vacanze"
   - author: "Vonnegut, Kurt"
     books:
       - original: "God Bless You, Mr. Rosewater, or Pearls Before Swine"
@@ -354,6 +353,11 @@ novels:
       - original: "Breakfast of Champions"
         en:
         it: "La Colazione dei Campioni, ovvero Addio Triste Lunedì"
+  - author: "Weir, Andy"
+    books:
+      - original: "Project Hail Mary"
+        en: 
+        it: "Project Hail Mary"
   - author: "Wells, H.G."
     books:
       - original: "The Time Machine"
@@ -461,6 +465,11 @@ essays:
       - original: "Histoire de la photographie"
         en: "History of photography"
         it: "Breve storia della fotografia"
+  - author: Kissinger, Henry
+    books:
+      - original: "World Order"
+        en:
+        it: "Ordine Mondiale"
   - author: "Martinez, Antonio Garcia"
     books:
       - original: "Chaos Monkeys: Obscene Fortune and Random Failure in Silicon Valley"
